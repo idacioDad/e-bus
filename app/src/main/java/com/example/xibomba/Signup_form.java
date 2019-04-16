@@ -1,17 +1,14 @@
 package com.example.xibomba;
 
-
-
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.xibomba.R;
-
-public class MainActivity extends AppCompatActivity {
+public class Signup_form extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
-        setContentView( R.layout.activity_main );
+        setContentView( R.layout.activity_signup_form );
+        getSupportActionBar().setTitle( "Registar" );
     }
 }
