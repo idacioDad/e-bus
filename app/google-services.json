@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "514804557607",
+    "firebase_url": "https://xibomba-1555150729760.firebaseio.com",
+    "project_id": "xibomba-1555150729760",
+    "storage_bucket": "xibomba-1555150729760.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514804557607:android:f2b9301eb6af4145",
+        "android_client_info": {
+          "package_name": "com.example.xibomba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514804557607-6kjqgieuej2evhgj3qaeu4hrn5cj7vcl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.xibomba",
+            "certificate_hash": "d71a5bef003add67146df75b949a2868bec95bc2"
+          }
+        },
+        {
+          "client_id": "514804557607-g8ar422irnl40ua2r4919rgfu70794i6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM_HHvrp3IMlt4bLFy7sgOGFq93PFOh5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514804557607-g8ar422irnl40ua2r4919rgfu70794i6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
