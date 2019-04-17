@@ -66,7 +66,8 @@
         android:textSize="15sp"
         android:textColor="#ffffff"
         android:background="@drawable/butao_redondo"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="40dp"
+        android:onClick="signIn"/>
 
 
     <Button
@@ -78,6 +79,7 @@
         android:textColor="#ffffff"
         android:background="@drawable/butao_redondo"
         android:layout_marginTop="20dp"
+        android:onClick="createAccount"
         />
 
     <com.google.android.gms.common.SignInButton
