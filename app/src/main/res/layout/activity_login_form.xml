@@ -11,22 +11,22 @@
     android:paddingBottom="10dp"
     tools:context=".Login_form">
 
-    <ImageView
+    <!--ImageView
         android:id="@+id/img_login"
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:src="@drawable/login1"
-       />
+       /-->
 
-    <android.support.design.widget.TextInputLayout
+    <!--android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:layout_marginTop="5dp"
-        >
+        -->
 
-        <android.support.design.widget.TextInputEditText
+        <EditText
             android:id="@+id/edt_loguser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,9 +35,9 @@
             android:textSize="15sp"
             android:inputType="text"
             />
-    </android.support.design.widget.TextInputLayout>
+    <!--/android.support.design.widget.TextInputLayout-->
 
-    <android.support.design.widget.TextInputLayout
+    <!--android.support.design.widget.TextInputLayout
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,9 +45,9 @@
         android:focusableInTouchMode="true"
         android:layout_marginTop="5dp"
         app:passwordToggleEnabled="true"
-        >
+        -->
 
-        <android.support.design.widget.TextInputEditText
+        <EditText
             android:id="@+id/edt_logpass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
             android:textSize="15sp"
             android:inputType="textPassword"
             />
-    </android.support.design.widget.TextInputLayout>
+    <!--/android.support.design.widget.TextInputLayout-->
 
     <Button
         android:id="@+id/btn_login"
@@ -67,7 +67,7 @@
         android:textColor="#ffffff"
         android:background="@drawable/butao_redondo"
         android:layout_marginTop="40dp"
-        android:onClick="signIn"/>
+        />
 
 
     <Button
@@ -79,7 +79,7 @@
         android:textColor="#ffffff"
         android:background="@drawable/butao_redondo"
         android:layout_marginTop="20dp"
-        android:onClick="createAccount"
+    android:onClick="passar"
         />
 
     <com.google.android.gms.common.SignInButton

@@ -76,7 +76,7 @@
         >
 
         <android.support.design.widget.TextInputEditText
-            android:id="@+id/edt_sign"
+            android:id="@+id/edt_signpass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Defina a Senha"
