@@ -9,6 +9,13 @@
     <org.osmdroid.views.MapView android:id="@+id/map"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        tilesource="Mapnik"/>
+        tilesource="Mapnik">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© OpenStreetMap contributors" />
+    </org.osmdroid.views.MapView>
 
 </LinearLayout>
